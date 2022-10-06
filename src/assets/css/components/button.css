@@ -1,0 +1,14 @@
+.btn-submit{
+    border: none;
+    block-size: 3rem;
+    background-color: var(--blue);
+    color: white;
+    font: var(--body1-bold);
+    cursor: pointer;
+    opacity: .9;
+
+}
+
+.btn-submit:hover {
+    opacity: 1;
+}

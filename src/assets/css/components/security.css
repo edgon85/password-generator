@@ -1,0 +1,45 @@
+.security {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--bg);
+}
+
+.security p {
+    font: var(--body1-regular);
+}
+
+
+.levels {
+    /* border: 1px solid rebeccapurple; */
+    block-size: 1.5rem;
+    inline-size: 1.5rem;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.levels .block {
+    inline-size: 4px;
+    block-size: 1.5rem;
+    background-color: var(--grey-dark);
+}
+
+.levels .block.level-1{
+    background-color: var(--grey-dark);
+    block-size: .375rem;
+}
+.levels .block.level-2{
+    block-size: .75rem;
+}
+.levels .block.level-3{
+    block-size: 1.125rem;
+}
+.levels .block.level-4{
+    block-size: 1.5rem;
+}
+
+.add-segurity{
+    background-color: var(--green) !important;
+}

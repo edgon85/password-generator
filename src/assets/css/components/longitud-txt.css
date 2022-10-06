@@ -1,0 +1,15 @@
+.longitud-txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.longitud-txt h2 {
+    font: var(--body1-bold);
+    color: var(--blue-dark);
+
+}
+.longitud-txt span {
+    color: var(--blue);
+    font: var(--subtitle);
+}

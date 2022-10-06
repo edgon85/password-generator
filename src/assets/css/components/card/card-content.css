@@ -1,0 +1,20 @@
+.card-content {
+    /* border: 1px solid lime; */
+    /* display: block; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-content .title{
+    font: var(--subtitle);
+    /* margin-block-end: 1rem; */
+}
+
+@media screen and (min-width: 500px){
+    .card-content {
+
+        gap: 1.5rem;
+    }
+}

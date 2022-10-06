@@ -1,0 +1,18 @@
+.form-options {
+  /* background-color: rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.option-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.option-item p {
+  font: var(--body1-regular);
+}

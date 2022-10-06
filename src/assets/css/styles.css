@@ -1,0 +1,9 @@
+@import './base.css';
+@import './components/card/card.css';
+@import './components/form/form.css';
+@import './components/longitud-txt.css';
+@import './components/slider/slider.css';
+@import './components/options.css';
+@import './components/security.css';
+@import './components/button.css';
+@import './components/notification.css';

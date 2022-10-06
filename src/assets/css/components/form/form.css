@@ -1,0 +1,26 @@
+.form {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  block-size: 3.5rem;
+  padding-inline: 1rem;
+  gap: 1rem;
+  background-color: var(--bg);
+}
+
+.form input {
+  flex: 1;
+  border: none;
+  font: var(--body1-regular);
+  background-color: transparent;
+  color: var(  --blue-dark);
+  outline: none;
+}
+
+
+.form .copy {
+    border: none;
+    background-color: transparent;
+    color: var(--blue);
+}

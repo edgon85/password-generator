@@ -1,0 +1,17 @@
+@import './card-content.css';
+
+.card {
+  background-color: var(--white);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0px 7px 11px rgba(23, 42, 88, 0.14),
+    0px 1.4px 1.7875px rgba(23, 42, 88, 0.07);
+}
+
+@media screen and (min-width: 500px) {
+  .card {
+    padding: 1rem;
+    padding-inline: 2.5rem;
+    padding-block: 1.5rem;
+  }
+}

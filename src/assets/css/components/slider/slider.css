@@ -1,0 +1,187 @@
+.playerPlayback-slider {
+  /* border: 1px solid limegreen; */
+  flex: 1;
+  flex-basis: 0%;
+}
+
+
+.slider {
+    block-size: 0.5rem;
+    background-color: var(--bg);
+ 
+}
+
+.slider-progress {
+    block-size: inherit;
+    border-radius: inherit;
+    background-color: var(--blue);
+    inline-size: 20%;   /* <<=== cambiar para aumentar  */ 
+    position: relative;
+}
+
+.slider-button {
+    background-color: var(--blue);
+    border-radius: 50%;
+    block-size: 250%;
+    aspect-ratio: 1/1;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.slider:hover .slider-progress {
+    background-color: var(--blue);
+}
+
+/* .slider:hover .slider-button {
+    background-color: var(--blue-dark);
+} */
+/* 
+input[type="range"] {
+    -webkit-appearance: none;
+
+    height: 8px;
+    background: var(--bg);
+
+    background-image: linear-gradient(var(--blue), var(--blue));
+    background-size: 20% 100%;
+    background-repeat: no-repeat;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: var(--blue);
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 var(--blue);;
+    transition: background .3s ease-in-out;
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: var(--blue);
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 red;
+    transition: background .3s ease-in-out;
+  }
+  
+  input[type="range"]::-ms-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: var(--blue);
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background: blue;
+  }
+  
+  input[type="range"]::-moz-range-thumb:hover {
+    background:var(--blue);
+  }
+  
+  input[type="range"]::-ms-thumb:hover {
+    background: var(--blue);
+  }
+  
+
+  input[type=range]::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+  
+  input[type=range]::-moz-range-track {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+  
+  input[type="range"]::-ms-track {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  } */
+
+  input[type="range"] {
+    -webkit-appearance: none;
+    /* margin-right: 15px; */
+    /* width: 200px; */
+    height: 8px;
+    background: var(--bg);
+    /* border-radius: 5px; */
+    background-image: linear-gradient(var(--blue), var(--blue));
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  /* Input Thumb */
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background:  var(--blue);
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 var(--blue);
+    transition: background .3s ease-in-out;
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background:  var(--blue);
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 var(--blue);
+    transition: background .3s ease-in-out;
+  }
+  
+  input[type="range"]::-ms-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background:  var(--blue);
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 var(--blue);
+    transition: background .3s ease-in-out;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background:  var(--blue);
+  }
+  
+  input[type="range"]::-moz-range-thumb:hover {
+    background:  var(--blue);
+  }
+  
+  input[type="range"]::-ms-thumb:hover {
+    background:  var(--blue);
+  }
+  
+  /* Input Track */
+  input[type=range]::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+  
